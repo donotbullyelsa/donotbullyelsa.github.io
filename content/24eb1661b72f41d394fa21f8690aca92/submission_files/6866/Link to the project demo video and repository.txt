@@ -1,5 +1,0 @@
-Link to the project demo video:
-https://www.youtube.com/watch?v=Kt002wsfzZo&ab_channel=DavidBUniAccount
-
-Link to the GitHub repository:
-https://github.com/GamesTech/gt101-group-game-bare-maximum.git

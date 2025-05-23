@@ -1,8 +1,0 @@
-Link to everything on OneDrive:
-https://uweacuk-my.sharepoint.com/:f:/g/personal/yat3_chan_live_uwe_ac_uk/EmkMMg8tDg1GihB-oOQdZ10B4j0TI5XjxF9WMzqYcn3ctQ?e=PvN6eb
-
-Github backup for Unity project:
-https://github.com/donotbullyelsa/GEP_Unity.git
-
-Github backup for Unreal project:
-https://github.com/donotbullyelsa/GEP_UE.git
