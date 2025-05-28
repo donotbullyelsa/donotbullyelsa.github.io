@@ -129,18 +129,22 @@
 
     .image-row {
       display: flex;
-      justify-content: space-between; /* Equal spacing between images */
+      justify-content: space-between;
+      /* Equal spacing between images */
       padding: 20px;
     }
 
     .image-row img {
-      width: 25%; /* Adjust width so they fit nicely */
+      width: 25%;
+      /* Adjust width so they fit nicely */
       height: auto;
-      border-radius: 8px; /* Optional: Rounded corners */
+      border-radius: 8px;
+      /* Optional: Rounded corners */
     }
 
     .image-container {
-      width: 30%; /* Adjust width to fit 3 in a row */
+      width: 30%;
+      /* Adjust width to fit 3 in a row */
       text-align: center;
     }
 
@@ -184,9 +188,8 @@
       <h3>Rubbish Rumble</h3>
       <p>Rubbish Rumble is a fast-paced and party style collection game where competition and chaos are hand in hand.
         Designed for up to 4 players, the goal is simple : collect and deposit the most rubbish before the timer hits
-        zero to claim the crown!
-
-        Fight it out across various hazard-filled maps and gain the upper hand through the use of dynamic power-ups (or
+        zero to claim the crown!</p>
+      <p>Fight it out across various hazard-filled maps and gain the upper hand through the use of dynamic power-ups (or
         just to ruin your friends day). If you are looking to fight for the win or just out to cause trouble, Rubbish
         Rumble delivers both through chaotic fun and friendly rivalry in every match.</p>
       <br>
@@ -194,13 +197,20 @@
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <p></p>
-      <a href="https://lunardriftrr.itch.io/rubbish-rumble" target="_blank">Itch.io Page</a> | <a href="https://youtu.be/XN4eL6jwZmQ" target="_blank">Trailer Video</a>
+      <p><b>Download this game for free in itch.io!</b></p>
+      <a href="https://lunardriftrr.itch.io/rubbish-rumble" target="_blank">Itch.io Page</a> | <a
+        href="https://youtu.be/XN4eL6jwZmQ" target="_blank">Trailer Video</a>
     </div>
     <div class="project">
-      <h3>Project Title1</h3>
-      <p>Description of the project, tech used, and what you learned.</p>
-      <a href="#">Live Demo</a> | <a href="#">Source Code</a>
+      <h3>Washing Fever</h3>
+      <p>A music game where players have to collect objects to be washed in flowing bubbles according to the music
+        rhythm. Pop bubbles containing clothes and cutlery in front of the washing machine to wash the items. Avoid the
+        red bubbles.</p>
+      <br>
+      <img src="WashingFever.png">
+      <p><b>Download this game for free in itch.io!</b></p>
+      <a href="https://ben-alford.itch.io/washing-fever" target="_blank">Itch.io Page</a> | <a
+        href="https://globalgamejam.org/games/2025/washing-fever-8" target="_blank">Global Game Jam Official Project Site</a>
     </div>
     <!-- Add more .project divs as needed -->
   </section>
@@ -208,9 +218,8 @@
     <h2>Contact</h2>
     <div class="image-row">
       <div class="image-container">
-        <a href="https://example.com/page1" target="_blank">
-          <img src="discord.png" alt="Image 1">
-        </a>
+        <img src="discord.png" alt="Image 1"
+          onclick="CopyAny('donotbullyelsa', 'The discord id donotbullyelsa has been copied.')">
         <p class="image-text">Discord</p>
       </div>
       <div class="image-container">
@@ -220,7 +229,8 @@
         <p class="image-text">Linkedin</p>
       </div>
       <div class="image-container">
-        <img src="email.png" alt="Image 1" onclick="CopyLink('christydnbe@gmail.com', 'The email address has been copied.')">
+        <img src="email.png" alt="Image 1"
+          onclick="CopyAny('christydnbe@gmail.com', 'The email address christydnbe@gmail.com has been copied.')">
         <p class="image-text">Email</p>
       </div>
     </div>
@@ -230,7 +240,7 @@
     <p>&copy; 2025 Chris Chan. All rights reserved.</p>
   </footer>
   <script>
-    function CopyLink(link, message) {
+    function CopyAny(link, message) {
       navigator.clipboard.writeText(link)
         .then(() => {
           //const msg = document.getElementById(message);
