@@ -161,7 +161,8 @@
 
 <body>
   <header>
-    <h1>Yat Long Chan, Chris</h1>
+    <h1>Chris Chan</h1>
+    <h3>christydnbe@gmail.com</h3>
     <p>Game / Software Developer</p>
   </header>
   <nav>
@@ -213,27 +214,34 @@
         <p class="image-text">Discord</p>
       </div>
       <div class="image-container">
-        <a href="https://example.com/page1" target="_blank">
+        <a href="https://www.linkedin.com/in/chris-chan-5722142a7" target="_blank">
           <img src="linkedin.png" alt="Image 1">
         </a>
         <p class="image-text">Linkedin</p>
       </div>
       <div class="image-container">
-        <a href="https://example.com/page1" target="_blank">
-          <img src="email.png" alt="Image 1">
-        </a>
+        <img src="email.png" alt="Image 1" onclick="CopyLink('christydnbe@gmail.com', 'The email address has been copied.')">
         <p class="image-text">Email</p>
       </div>
     </div>
 
   </section>
   <footer>
-    <p>&copy; 2025 Chris, Yat Long Chan. All rights reserved.</p>
+    <p>&copy; 2025 Chris Chan. All rights reserved.</p>
   </footer>
   <script>
-    function sendMessage(event) {
-      event.preventDefault();
-      alert('Thank you for your message!');
+    function CopyLink(link, message) {
+      navigator.clipboard.writeText(link)
+        .then(() => {
+          //const msg = document.getElementById(message);
+          //msg.style.display = "block";
+          //setTimeout(() => msg.style.display = "none", 2000);
+          alert(message)
+        })
+        .catch(err => {
+          alert("Failed to copy the link.");
+          console.error(err);
+        });
     }
   </script>
 </body>
